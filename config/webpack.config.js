@@ -189,7 +189,6 @@ module.exports = function (webpackEnv) {
   return {
     externals: {
       react: "React",
-      "react-dom": "ReactDOM",
     },
     target: ["browserslist"],
     mode: isEnvProduction ? "production" : isEnvDevelopment && "development",
